@@ -1,0 +1,100 @@
+.logo {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 25px;
+    transition: 0.5s;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    padding: 20px;
+    margin-left: 260px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#showcategory,
+#shownewreleases,
+#showplaylists {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    border: 1px solid grey;
+    background-color: grey;
+    width: 480;
+    height: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper:hover {
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
+
+.listing {
+    margin-top: 3em;
+}
+
+.listdetail {
+    padding: 1em;
+}
+
+.listdetail:hover {
+    color: black;
+}
+
+.trackwrapper {
+    border: 1px solid grey;
+    background-color: grey;
+    width: 600;
+    height: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trackwrapper:hover {
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
